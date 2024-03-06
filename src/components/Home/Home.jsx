@@ -3,6 +3,7 @@ import Type from './Type';
 import moon from '../assets/moon.jpg';
 import earth from '../assets/earth.jpg';
 import stars from '../assets/stars.jpg';
+import astronaut from '../assets/astronaut.png';
 
 export default function Home() {
     return (
@@ -41,20 +42,25 @@ export default function Home() {
                 factor={2}
                 style={{
                     backgroundImage: `url(${earth})`,
-                    backgroundSize: 'cover'
+                    backgroundSize: 'cover',
                 }}>
                     <div>
                         <h1 style={{fontSize: '50px'}}>WHO AM I?</h1>
                         <div style={{fontSize: '30px', fontWeight: 'bold', color: '#7393B3'}}>
                             <Type />
                         </div>
-                        <h3 className="bodyText">
-                            My name is <span style={{color: '#7393B3'}}>Max Martinez</span> and I am an aspiring software engineer.
-                            <br />
-                            I started learning how to code in 2022 and since then, I&apos;ve loved it!
-                            <br />
-                            I am currently taking a fullstack coding bootcamp at the University of Miami where I learned to create this website!
-                        </h3>
+                        <div className="container">
+                            <div className="bodyText">
+                                <h3>
+                                    My name is <span style={{color: '#7393B3'}}>Max Martinez</span> and I am an aspiring software engineer.
+                                    <br />
+                                    I started learning how to code in 2022 and since then, I&apos;ve loved it!
+                                    <br />
+                                    I am currently taking a fullstack coding bootcamp at the University of Miami where I learned to create this website!
+                                </h3>
+                            </div>
+                            <img src={astronaut} className="astronaut" />
+                        </div>
                     </div>
                 </ParallaxLayer>
             </Parallax>
