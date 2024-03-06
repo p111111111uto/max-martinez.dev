@@ -14,22 +14,33 @@ export default function Home() {
                     backgroundImage: `url(${moon})`,
                     backgroundSize: 'cover'
                 }}>
-                    <h2>Hello there!</h2>
-                    <h1>My name is MAX MARTINEZ</h1>
-                    <Type />
+                    <div className="parallaxMain">
+                        <h1>Hello Out There!</h1>
+                        <h1>Come closer to my world...</h1>
+                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
                 offset={1}
                 speed={0.5}
+                factor={2}
                 style={{
                     backgroundImage: `url(${earth})`,
                     backgroundSize: 'cover'
                 }}>
-                    <h1>Who am I?</h1>
-                    <h2>I started learning how to code in 2022 and since then, I&apos;ve loved it!</h2>
-                    <h2>I enjoy building visually appealing fullstack applications and websites.</h2>
-                    <h2>I am currently taking the University of Miamis fullstack coding bootcamp where I learned to create this website!</h2>
+                    <div>
+                        <h1 style={{fontSize: '50px'}}>WHO AM I?</h1>
+                        <div style={{fontSize: '30px', fontWeight: 'bold', color: '#7393B3'}}>
+                            <Type />
+                        </div>
+                        <p className="bodyText">
+                            My name is Max Martinez and I am an aspiring software engineer.
+                            <br />
+                            I started learning how to code in 2022 and since then, I&apos;ve loved it!
+                            <br />
+                            I am currently taking the University of Miamis fullstack coding bootcamp where I learned to create this website!
+                        </p>
+                    </div>
                 </ParallaxLayer>
             </Parallax>
         </>
