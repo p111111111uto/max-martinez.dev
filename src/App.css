@@ -1,12 +1,10 @@
 #root {
-  padding: 2rem;
   text-align: center;
 }
 
 body, html {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -59,7 +57,6 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
   position: fixed;
 }
 
@@ -106,4 +103,28 @@ header {
   bottom: 0;
   left: 0;
   transition: width 0.3s ease-in-out;
+}
+
+.iconContainer, .toolsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.icon, .tool{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #7393B3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 40px;
+  transition: background-color 0.3s;
+}
+
+.icon:hover, .tool:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
