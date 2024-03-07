@@ -12,7 +12,7 @@ export default function Home() {
                 <ParallaxLayer
                 offset={0}
                 speed={1}
-                factor={2}
+                factor={2.5}
                 style={{
                     backgroundImage: `url(${moon})`,
                     backgroundSize: 'cover',
@@ -31,7 +31,7 @@ export default function Home() {
                         backgroundSize: 'cover',
                     }}
                     speed={1.5}
-                    factor={2}
+                    factor={2.5}
                 >
 
                 </ParallaxLayer>
