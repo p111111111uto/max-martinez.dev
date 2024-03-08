@@ -1,9 +1,9 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Type from './Type';
-import moon from '../assets/moon.jpg';
-import earth from '../assets/earth.jpg';
-import stars from '../assets/stars.jpg';
-import astronaut from '../assets/astronaut.png';
+import moon from './assets/moon.jpg';
+import earth from './assets/earth.jpg';
+import stars from './assets/stars.jpg';
+import astronaut from './assets/astronaut.png';
 
 export default function Home() {
     return (
