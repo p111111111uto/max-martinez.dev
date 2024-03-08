@@ -128,3 +128,46 @@ header {
 .icon:hover, .tool:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+
+.aboutBody {
+  padding-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#firstH {
+  padding-top: 3rem;
+}
+
+.details, .extra {
+  flex: 1;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.details {
+  text-align: left;
+  line-height: 3rem;
+  max-width: 500px;
+  padding-left: 3rem;
+}
+
+.extra {
+  padding-right: 3rem;
+}
+
+.extra ul {
+  line-height: 8rem;
+  list-style-type: none;
+}
+
+.extra li {
+  color: #7393B3;
+}
+
+.skillSet, .toolSet {
+  flex-basis: 100%;
+}
