@@ -18,10 +18,8 @@ export default function Home() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                 }}>
-                    <div className="parallaxMain">
                         <h1>Hello Out There!</h1>
                         <h1>Welcome to my world...</h1>
-                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
