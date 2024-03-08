@@ -2,8 +2,8 @@ import './App.css'
 import Header from './components/Header';
 import Home from './components/Home/Home';
 import AboutMe from './components/About/AboutMe';
-import ContactMe from './components/ContactMe';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/about-me' element={<AboutMe />} />
-          <Route path='/contact-me' element={<ContactMe />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/resume' element={<Resume />} />
         </Routes>
       </Router>
     </>

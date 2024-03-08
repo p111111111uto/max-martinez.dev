@@ -11,10 +11,10 @@ export default function Navigation() {
                     <Link to='/about-me'>About Me</Link>
                 </li>
                 <li className='navItem'>
-                    <Link to='/contact-me'>Contact Me</Link>
+                    <Link to='/projects'>Projects</Link>
                 </li>
                 <li className='navItem'>
-                    <Link to='/projects'>Projects</Link>
+                    <Link to='/resume'>Resume</Link>
                 </li>
             </ul>
         </nav>
