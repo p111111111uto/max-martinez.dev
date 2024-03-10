@@ -12,7 +12,7 @@ export default function AboutMe() {
                     <p>
                         Hi everyone! My name is Max and as previously mentioned, I am an aspiring software engineer.
                         <br />
-                        Throughout my life I have enjoyed computers, I always found it fascinating how the way that computers are able to do such complex things seems like magic.
+                        Throughout my life I have enjoyed computers, I always found it fascinating how computers are able to do such complex things seems like magic.
                         <br />
                         However, as most of us in the field know and how my instructor always says, it is far from magic.
                         <br />

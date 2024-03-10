@@ -32,7 +32,7 @@ export default function Projects() {
                 <img src={socialAPI} alt="socialAPI" className="projectImg" />
                 <div className="projectInfo">
                     <h3>Social.net</h3>
-                    <p>This project is a social network API where you can create, delete, add friends, adn remove friends. This project was made using MongoDB, Javascript, Express.js and Insomnia to locate the endpoints. This project unfortunately does not have an interface but it showcases of how I make API servers along front end websites.</p>
+                    <p>This project is a social network API where you can create, delete, add friends, and remove friends. This project was made using MongoDB, Javascript, Express.js and Insomnia to locate the endpoints. This project unfortunately does not have an interface but it showcases of how I make API servers along front end websites.</p>
                 </div>
                 <div className="projectLinks">
                     <a href="https://github.com/maxmruiz/social.net?tab=readme-ov-file" target="_blank" className="github">
@@ -44,7 +44,7 @@ export default function Projects() {
                 <img src={JSQuiz} alt="JSQuiz" className="projectImg" />
                 <div className="projectInfo">
                     <h3>JavaScript Quiz</h3>
-                    <p>This project is a JavaScript coding quiz. The purpose of this project was to enhance my JavaScript skills using timers, functions, event listeners and so forth. To start this project, you click on the &quot;Start now&quot; button. From there you will be need to answer 12 questions, if you get a question wrong, you will be penalized 2 seconds from the 15 seconds for each question. At the end, you will see how many questions you got rigt out of 12. You can also save your score as well as see the leaderboard. I have a lot of fun making this project and it definitely helped sharpening my JavaScript skills!</p>
+                    <p>This project is a JavaScript coding quiz. The purpose of this project was to enhance my JavaScript skills using timers, functions, event listeners and so forth. To start this project, you click on the &quot;Start now&quot; button. From there you will be need to answer 12 questions, if you get a question wrong, you will be penalized 2 seconds from the 15 seconds for each question. At the end, you will see how many questions you got right out of 12. You can also save your score as well as see the leaderboard. I have a lot of fun making this project and it definitely helped sharpening my JavaScript skills!</p>
                 </div>
                 <div className="projectLinks">
                     <a href="https://github.com/maxmruiz/JS-quiz" target="_blank" className="github">
