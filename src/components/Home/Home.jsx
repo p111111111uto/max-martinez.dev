@@ -18,8 +18,10 @@ export default function Home() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                 }}>
+                    <div className="firstText">
                         <h1>Hello Out There!</h1>
                         <h1>Welcome to my world...</h1>
+                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
@@ -37,7 +39,7 @@ export default function Home() {
                 <ParallaxLayer
                 offset={2}
                 speed={1}
-                factor={2}
+                factor={1.5}
                 style={{
                     backgroundImage: `url(${earth})`,
                     backgroundSize: 'cover',
