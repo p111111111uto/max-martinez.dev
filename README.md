@@ -3,7 +3,7 @@
 </h1>
 
 <div align='center'>
-    <a href='https://max-martinez-portfolio-f621suft5-beyondneptune.vercel.app/'>My Website Here</a>
+    <a href='https://max-martinez-dev.vercel.app/'>My Website Here</a>
 </div>
 
 <img src='./assets/portfolio-mockup.png' alt='responsive-mockup'>
