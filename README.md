@@ -1,5 +1,5 @@
 <h1 align='center'>
-    # Max Martinez Portfolio Website
+    <h1>Max Martinez Portfolio Website</h1>
 </h1>
 
 <div align='center'>
