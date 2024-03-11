@@ -5,7 +5,7 @@ export default function Navigation() {
         <nav>
             <ul className='navbar'>
                 <li className='navItem'>
-                    <Link to='/home'>Home</Link>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li className='navItem'>
                     <Link to='/about-me'>About Me</Link>
