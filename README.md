@@ -1,4 +1,6 @@
-# Max Martinez's Portfolio Website
+<h1 align='center'>
+    # Max Martinez Portfolio Website
+</h1>
 
 <div align='center'>
     <a href='https://max-martinez-portfolio-f621suft5-beyondneptune.vercel.app/'>My Website Here</a>
