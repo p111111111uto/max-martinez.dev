@@ -1,5 +1,5 @@
 import Particle from "../Particle";
-import recipeApp from './assets/recipeApp.png'
+import echoesOfAstra from './assets/echoes-of-astra.png'
 import socialAPI from './assets/socialAPI.png'
 import JSQuiz from './assets/JSQuiz.png'
 import OGPortfolio from './assets/OGPortfolio.png'
@@ -14,16 +14,16 @@ export default function Projects() {
             <h1 style={{marginTop: '4rem'}}><span style={{color: '#7393B3'}}>Projects</span> I am most proud of.</h1>
             <div className="projects">
             <div className="projectCard">
-                <img src={recipeApp} alt="recipe-app" className="projectImg" />
+                <img src={echoesOfAstra} alt="Echoes of Astra" className="projectImg" />
                 <div className="projectInfo">
-                    <h3>Recipe App</h3>
-                    <p>This was the first group project I did during the University of Miami bootcamp. The challenge here was to make to make a functioning website using HTML, CSS, Javascript and API requests. Here is how the project works. There are two search bars: one for food recipe and one for drink recipes. If you want to know the ingredients of Gnocchi soup, you type that into the search bar and it will pop up instantly. For the drinks, it works the same. Say you want to make Sangria, type that in and there it appears. Although this project was made on the basics of web development, I am proud that this project came out just as we expected working in a group.</p>
+                    <h3>Echoes of Astra</h3>
+                    <p>Echoes of Astra is a AI powered dream enterpreter that allows you enter any dream that you have had recently and tell you the meaning of it as well as common dream meanings. This was the final project I did at the University of Miami's coding bootcamp. We had to make this project entirely from scratch as well as deploy it to the web and present it to the class. This project was a lot of work as we used several technologies we weren't super familiar with, including AI, but I am very proud of how it turned out and how well my team and I worked together!</p>
                 </div>
                 <div className="projectLinks">
-                    <a href="https://github.com/maxmruiz/recipe-app?tab=readme-ov-file" target="_blank" className="github">
+                    <a href="https://github.com/reagan1440/Echoes-of-Astra" target="_blank" className="github">
                         <AiFillGithub />
                     </a>
-                    <a href="https://maxmruiz.github.io/recipe-app/" target="_blank" className="demo">
+                    <a href="https://echoes-of-astra.onrender.com/" target="_blank" className="demo">
                         <AiFillEye />
                     </a>
                 </div>
