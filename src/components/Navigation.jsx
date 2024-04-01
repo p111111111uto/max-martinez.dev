@@ -13,6 +13,9 @@ export default function Navigation() {
                 <li className='navItem'>
                     <Link to='/projects'>Projects</Link>
                 </li>
+                <li className='navItem'>
+                    <Link to='/resume'>Resume</Link>
+                </li>
             </ul>
         </nav>
     );
