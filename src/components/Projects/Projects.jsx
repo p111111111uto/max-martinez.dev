@@ -1,4 +1,3 @@
-import Particle from "../Particle";
 import echoesOfAstra from './assets/echoes-of-astra.png'
 import socialAPI from './assets/socialAPI.png'
 import JSQuiz from './assets/JSQuiz.png'
@@ -10,7 +9,6 @@ AiFillEye } from 'react-icons/ai';
 export default function Projects() {
     return (
         <div className="projectContainer">
-            <Particle />
             <h1 style={{marginTop: '4rem'}}><span style={{color: '#7393B3'}}>Projects</span> I am most proud of.</h1>
             <div className="projects">
             <div className="projectCard">

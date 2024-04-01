@@ -1,11 +1,9 @@
 import SkillSet from "./SkillSet"
 import Tools from "./Tools"
-import Particle from "../Particle"
 
 export default function AboutMe() {
     return (
         <div className="aboutMe">
-            <Particle />
             <h1 id="firstH">Get to know <span style={{color:'#7393B3'}}> me</span></h1>
             <div className="aboutBody">
                 <div className="details">
