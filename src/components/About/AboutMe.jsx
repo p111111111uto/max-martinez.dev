@@ -4,7 +4,7 @@ import Tools from "./Tools"
 export default function AboutMe() {
     return (
         <div className="aboutMe">
-            <h1 id="firstH">Get to know <span style={{color:'#7393B3'}}> me</span></h1>
+            <h1 id="firstH">Get to know <span style={{color:'#FFD700'}}> me</span></h1>
             <div className="aboutBody">
                 <div className="details">
                     <p>
@@ -31,11 +31,11 @@ export default function AboutMe() {
                     </ul>
                 </div>
                 <div className="skillSet">
-                    <h1><span style={{color:'#7393B3'}}> Languages </span> I Use</h1>
+                    <h1><span style={{color:'#FFD700'}}> Languages </span> I Use</h1>
                     <SkillSet />
                 </div>
                 <div className="toolSet">
-                    <h1><span style={{color:'#7393B3'}}>Tools</span> I Use</h1>
+                    <h1><span style={{color:'#FFD700'}}>Tools</span> I Use</h1>
                     <Tools />
                 </div>
             </div>

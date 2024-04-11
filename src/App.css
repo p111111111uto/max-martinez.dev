@@ -73,7 +73,7 @@ header {
 .navItem a {
   text-decoration: none;
   font-size: 28px;
-  color: #7393B3;
+  color: #FFD700;
   position: relative;
   display: inline-block;
   padding-bottom: 5px;
@@ -85,7 +85,7 @@ header {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #7393B3;
+  background-color: #FFD700;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -97,7 +97,7 @@ header {
   display: block;
   width: 0;
   height: 2px;
-  background-color: #7393B3;
+  background-color: #FFD700;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -115,7 +115,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #7393B3;
+  border: 2px solid #FFD700;
   border-radius: 10px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -163,7 +163,7 @@ header {
 }
 
 .extra li {
-  color: #7393B3;
+  color: #FFD700;
 }
 
 .skillSet, .toolSet {
@@ -217,7 +217,7 @@ header {
 .projectInfo h3 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
-  color: #7393B3;
+  color: #FFD700;
 }
 
 .projectInfo p {
@@ -233,7 +233,7 @@ header {
 
 .projectLinks a {
   text-decoration: none;
-  color: #7393B3;
+  color: #FFD700;
   background: rgba(255, 255, 255, 0.1);
   padding: 0.8rem 1rem;
   border-radius: 5px;

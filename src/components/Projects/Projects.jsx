@@ -9,7 +9,7 @@ AiFillEye } from 'react-icons/ai';
 export default function Projects() {
     return (
         <div className="projectContainer">
-            <h1 style={{marginTop: '4rem'}}><span style={{color: '#7393B3'}}>Projects</span> I am most proud of.</h1>
+            <h1 style={{marginTop: '4rem'}}><span style={{color: '#FFD700'}}>Projects</span> I am most proud of.</h1>
             <div className="projects">
             <div className="projectCard">
                 <img src={echoesOfAstra} alt="Echoes of Astra" className="projectImg" />

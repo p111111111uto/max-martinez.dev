@@ -46,13 +46,13 @@ export default function Home() {
                 }}>
                     <div>
                         <h1 style={{fontSize: '50px'}}>WHO AM I?</h1>
-                        <div style={{fontSize: '30px', fontWeight: 'bold', color: '#7393B3'}}>
+                        <div style={{fontSize: '30px', fontWeight: 'bold', color: '#FFD700'}}>
                             <Type />
                         </div>
                         <div className="container">
                             <div className="bodyText">
                                 <h3>
-                                    My name is <span style={{color: '#7393B3'}}>Max Martinez</span> and I am an aspiring software engineer.
+                                    My name is <span style={{color: '#FFD700'}}>Max Martinez</span> and I am an aspiring software engineer.
                                     <br />
                                     I started learning how to code in 2022 and since then, I&apos;ve loved it!
                                     <br />
