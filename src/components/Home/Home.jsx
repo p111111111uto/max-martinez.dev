@@ -52,11 +52,11 @@ export default function Home() {
                         <div className="container">
                             <div className="bodyText">
                                 <h3>
-                                    My name is <span style={{color: '#FFD700'}}>Max Martinez</span> and I am an aspiring software engineer.
+                                    My name is <span style={{color: '#FFD700'}}>Max Martinez</span> and I am an aspiring cloud engineer.
                                     <br />
-                                    I started learning how to code in 2022 and since then, I&apos;ve loved it!
+                                    I started my tech journey in 2022 and since then, I&apos;ve loved it!
                                     <br />
-                                    I am currently taking a fullstack coding bootcamp at the University of Miami where I learned to create this website!
+                                    I am currently a desktop support technician at the University of Miami studying cloud computing at Western Governors University.
                                 </h3>
                             </div>
                             <img src={astronaut} className="astronaut" />
