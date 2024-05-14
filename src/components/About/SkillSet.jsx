@@ -5,13 +5,15 @@ import {
     DiReact,
     DiJqueryLogo,
     DiMongodb,
-    DiMysql
+    DiMysql,
+    DiPython
 } from 'react-icons/di';
 
 export default function SkillSet() {
     return (
         <div className="iconContainer">
             <div className='icon'><DiCss3 /></div>
+            <div className="icon"><DiPython /></div>
             <div className="icon"><DiJavascript1 /></div>
             <div className="icon"><DiNodejs /></div>
             <div className="icon"><DiReact /></div>

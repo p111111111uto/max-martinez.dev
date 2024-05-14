@@ -58,6 +58,14 @@ header {
   font-size: 40px;
 }
 
+nav {
+  backdrop-filter: blur(2.5px);
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 .navbar {
   display: flex;
   padding: 0;
@@ -65,6 +73,7 @@ header {
   list-style: none;
   align-items: flex-end;
 }
+
 
 .navItem {
   margin-right: 25px;
@@ -78,30 +87,11 @@ header {
   display: inline-block;
   padding-bottom: 5px;
   text-shadow: 0px 2px 5px black;
+  transition: font-size 0.3s;
 }
 
-.navItem a:hover::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #FFD700;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: width 0.3s ease-in-out;
-}
-
-.navItem a::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: #FFD700;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: width 0.3s ease-in-out;
+.navItem a:hover {
+  font-size: 30px;
 }
 
 .iconContainer, .toolsContainer {
@@ -229,12 +219,7 @@ header {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.github {
-  display: flex;
-  align-items: center;
-}
-
-.demo {
+.github, .demo {
   display: flex;
   align-items: center;
 }
