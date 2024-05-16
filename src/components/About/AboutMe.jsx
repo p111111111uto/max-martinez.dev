@@ -8,7 +8,7 @@ export default function AboutMe() {
             <h1 id="firstH">Get to know <span style={{color:'#FFD700'}}> me</span></h1>
             <div className="aboutBody">
                 <div className="extra">
-                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjAwODl5azRzMjRyeHUybjAwcmg4cGduZjY0NTJhdnFlMTFteHBlOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sIV0wFDrsKNxe/giphy.gif"
+                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzFlYzRlenVtNm10dTdodDV6aGp3N2d1OXVrYXkxNDNycThsdjVwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/JVglf7QjxaZZM2tjfB/giphy.gif"
                     />
                 </div>
                 <div className="details">
