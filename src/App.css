@@ -61,7 +61,7 @@ header {
 nav {
   backdrop-filter: blur(2.5px);
   width: 100%;
-  padding: 10px;
+  padding: 4px;
   display: flex;
   justify-content: center;
 }

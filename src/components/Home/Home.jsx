@@ -5,9 +5,10 @@ import earth from './assets/earth.jpg';
 import stars from './assets/stars.jpg';
 import astronaut from './assets/astronaut.png';
 
+
 export default function Home() {
     return (
-        <>
+        <div style={{overflow: 'hidden'}}>
             <Parallax pages={3}>
                 <ParallaxLayer
                 offset={0}
@@ -64,6 +65,6 @@ export default function Home() {
                     </div>
                 </ParallaxLayer>
             </Parallax>
-        </>
+        </div>
     );
 }
