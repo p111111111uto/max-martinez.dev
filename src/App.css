@@ -56,16 +56,38 @@ header {
   font-size: 40px;
 }
 
-.dropbtn {
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.sourceCode {
+  margin-right: 80px;
+  transition: background-color 0.3s;
+}
+
+.sourceCode a {
+  color: #FFD700;
+}
+
+.sourceCode:hover {
+  background-color: #f9f9f934;
+}
+
+.dropbtn, .sourceCode {
   color: #FFD700;
   background-color: transparent;
   backdrop-filter: blur(3px);
-  padding: 10px 15px;
-  font-size: 16px;
+  padding: 8px 15px;
   border: 2px solid #FFD700;
   cursor: pointer;
-  margin: 20px;
   border-radius: 5px;
+  font-size: 20px;
+}
+
+.dropbtn {
+  color: #FFD700;
   font-size: 20px;
 }
 
@@ -259,10 +281,6 @@ footer a {
     padding: 0 20px;
   }
 
-  .firstText {
-    margin-top: 4rem;
-  }
-
   .astronaut {
     width: 50%;
     padding-right: 0;
@@ -276,15 +294,8 @@ footer a {
     flex-wrap: wrap;
   }
 
-  .navbar {
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .navItem {
-    margin-right: 0;
-    margin-bottom: 20px;
+  .sourceCode {
+    margin-right: 35px;
   }
 
   .iconContainer, .toolsContainer {
@@ -356,6 +367,10 @@ footer a {
 
   #firstH {
     font-size: 45px;
+  }
+
+  .sourceCode {
+    margin-right: 70px;
   }
 
   .projectContainer h1:first-of-type {
