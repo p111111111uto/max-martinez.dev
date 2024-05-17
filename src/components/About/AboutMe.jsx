@@ -18,11 +18,8 @@ export default function AboutMe() {
                     </p>
                 </div>
                 <div className="skillSet">
-                    <h1><span style={{color:'#FFD700'}}> Languages </span> I Use</h1>
+                    <h1><span style={{color:'#FFD700'}}> Languages & Tools </span>I Use</h1>
                     <SkillSet />
-                </div>
-                <div className="toolSet">
-                    <h1><span style={{color:'#FFD700'}}>Tools</span> I Use</h1>
                     <Tools />
                 </div>
             </div>
