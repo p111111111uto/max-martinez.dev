@@ -5,7 +5,8 @@ import OGPortfolio from './assets/OGPortfolio.png'
 import raspberrypi from './assets/raspberry-pi.png'
 import {
 AiFillGithub,
-AiFillEye } from 'react-icons/ai';
+AiFillEye,
+AiFillLinkedin } from 'react-icons/ai';
 
 export default function Projects() {
     return (
@@ -17,6 +18,11 @@ export default function Projects() {
                 <div className="projectInfo">
                     <h3>Raspberry Pi 5 Home Server</h3>
                     <p>I created a custom home server using Raspberry Pi 5. I host my own game servers, cloud storage using Nextcloud, and VPN using PiVPN/Wireguard. This project is ever-growing with more additions to come in the future!</p>
+                </div>
+                <div className="projectLinks">
+                    <a href='https://www.linkedin.com/in/max-martinez1010/details/projects/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADyvh8oBukWzWszd_omSWVQCG7nrDLp4LEE' target='_blank' className='demo'>
+                        <AiFillLinkedin />
+                    </a>
                 </div>
             </div>
             <div className="projectCard">
