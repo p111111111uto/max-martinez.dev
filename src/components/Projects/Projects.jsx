@@ -2,6 +2,7 @@ import echoesOfAstra from './assets/echoes-of-astra.png'
 import socialAPI from './assets/socialAPI.png'
 import JSQuiz from './assets/JSQuiz.png'
 import OGPortfolio from './assets/OGPortfolio.png'
+import raspberrypi from './assets/raspberry-pi.png'
 import {
 AiFillGithub,
 AiFillEye } from 'react-icons/ai';
@@ -11,6 +12,13 @@ export default function Projects() {
         <div className="projectContainer">
             <h1 style={{marginTop: '4rem'}}><span style={{color: '#FFD700'}}>Projects</span> I am most proud of.</h1>
             <div className="projects">
+            <div className="projectCard">
+                <img src={raspberrypi} alt='Raspberry Pi 5 Server' className='projectImg' />
+                <div className="projectInfo">
+                    <h3>Raspberry Pi 5 Home Server</h3>
+                    <p>I created a custom home server using Raspberry Pi 5. I host my own game servers, cloud storage using Nextcloud, and VPN using PiVPN/Wireguard. This project is ever-growing with more additions to come in the future!</p>
+                </div>
+            </div>
             <div className="projectCard">
                 <img src={echoesOfAstra} alt="Echoes of Astra" className="projectImg" />
                 <div className="projectInfo">
