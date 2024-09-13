@@ -5,9 +5,10 @@ export default function Type() {
         <Typewriter 
             options={{
                 strings: [
-                    'Aspiring cloud engineer',
+                    'Aspiring security engineer',
                     'Tech enthusiast',
-                    'Innovator',
+                    'Ethical hacker',
+                    'Python guru',
                     'Lifelong learner',
                 ],
                 autoStart: true,
