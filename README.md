@@ -1,5 +1,5 @@
 <h1 align='center'>
-    Max Martinez Portfolio Website
+    Max's Portfolio Website
 </h1>
 
 <div align='center'>
@@ -31,7 +31,7 @@ This project includes:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/maxmruiz/max-martinez.dev.git
+git clone https://github.com/p111111111uto/max-martinez.dev.git
 ```
 2. Install using. `npm install`.
 3. Run using `npm run dev`.
@@ -39,4 +39,4 @@ git clone https://github.com/maxmruiz/max-martinez.dev.git
 
 ## Questions?
 
-Contact me at `maxmruiz` on [Github](https://github.com/maxmruiz)!
+Contact me at `p111111111uto` on [Github](https://github.com/p111111111uto)!
