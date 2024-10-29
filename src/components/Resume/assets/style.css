@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .resumeContainer h1 {
@@ -12,6 +14,8 @@
 
 .resumeContainer img {
     border-radius: 20px;
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -25,7 +29,8 @@
 
     .resumeContainer img {
         border-radius: 10px;
-        max-width: 400px;
+        width: 100%;
+        height: auto;
     }
 }
 
