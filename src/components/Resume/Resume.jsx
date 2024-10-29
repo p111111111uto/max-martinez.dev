@@ -1,5 +1,5 @@
-import resume from './assets/resume.jpeg'
-import resumepdf from './assets/resume.pdf'
+import resume from './assets/resume.jpg'
+import resumepdf from './assets/resumepdf.pdf'
 import './assets/style.css'
 
 export default function Resume() {
