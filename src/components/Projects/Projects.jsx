@@ -67,21 +67,6 @@ export default function Projects() {
                     </a>
                 </div>
             </div>
-            <div className="projectCard">
-                <img src={OGPortfolio} alt="Old-Portfolio" className="projectImg" />
-                <div className="projectInfo">
-                    <h3>My first portfolio</h3>
-                    <p>Last but not least: My first portfolio! I included this here to showcase how much I&apos;ve learned since I started programming. This portfolio did not have ANY Javascript nor functionality, it was just a static page. I think it&apos;s safe to say, I&apos;ve come a long way!</p>
-                </div>
-                <div className="projectLinks">
-                    <a href="https://github.com/p111111111uto/professional-portfolio?tab=readme-ov-file" target="_blank" className="github">
-                        <AiFillGithub />
-                    </a>
-                    <a href="https://p111111111uto.github.io/professional-portfolio/" target="_blank" className="demo">
-                        <AiFillEye />
-                    </a>
-                </div>
-            </div>
             </div>
         </div>
     )

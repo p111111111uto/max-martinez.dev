@@ -5,6 +5,7 @@ DiVisualstudio,
 DiWindows,
 DiUbuntu
 } from 'react-icons/di';
+import { SiKalilinux } from "react-icons/si";
 
 export default function Tools() {
     return (
@@ -14,6 +15,7 @@ export default function Tools() {
             <div className="tool"><DiVisualstudio /></div>
             <div className="tool"><DiWindows /></div>
             <div className="tool"><DiUbuntu /></div>
+            <div className="tool"><SiKalilinux /></div>
         </div>
     );
 }
