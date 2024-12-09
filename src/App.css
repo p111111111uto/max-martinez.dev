@@ -185,10 +185,6 @@ header {
   border-radius: 20px;
 }
 
-.skillSet, .toolSet {
-  flex-basis: 100%;
-}
-
 .projects {
   padding-top: 4rem;
   display: flex;
@@ -392,10 +388,6 @@ footer a {
   }
 
   .projectContainer h1:first-of-type {
-    font-size: 45px;
-  }
-
-  .skillSet h1 {
     font-size: 45px;
   }
 
