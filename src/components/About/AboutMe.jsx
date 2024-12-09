@@ -1,5 +1,6 @@
 import SkillSet from "./SkillSet"
 import Tools from "./Tools"
+import me from './assests/me.jpg'
 import { Link } from 'react-router-dom'
 
 export default function AboutMe() {
@@ -8,13 +9,11 @@ export default function AboutMe() {
             <h1 id="firstH">Get to know <span style={{color:'#FFD700'}}> me</span></h1>
             <div className="aboutBody">
                 <div className="extra">
-                    <img src="https://tenor.com/view/gengar-gif-17182270565678324102"
-                    />
+                    <img src={me}/>
                 </div>
                 <div className="details">
                     <p>
                         Hello world! My name is Maria, but you can call me either <span style={{color: 'FFD700'}}>Max</span> or <span style={{color: 'FFD700'}}>Mar</span>. Growing up I loved played video games and tinkering with electronics as well as building/making new things. I started my tech journey in 2021 and have learned so much since then! You can learn more my work experience from my <Link to='/resume' style={{color: '#FFD700', textDecoration:'none'}}>resume.</Link> Besides my work experience, I enjoy playing video games, listening to music, working out, reading books, and spending time with loved ones.
-                        Fun fact about me: one of my favorite Pokemon is Gengar, as you probably can already tell.
                     </p>
                 </div>
                 <div className="skillSet">

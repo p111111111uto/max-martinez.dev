@@ -162,6 +162,7 @@ header {
   margin: 20px;
   font-size: 30px;
   line-height: 3rem;
+  text-align: left;
 }
 
 .extra img {
@@ -316,6 +317,7 @@ footer a {
   .details {
     margin: 5px;
     font-size: 20px;
+    flex-direction: column;
   }
 
   .extra img{
