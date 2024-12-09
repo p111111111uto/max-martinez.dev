@@ -1,6 +1,6 @@
 import SkillSet from "./SkillSet"
 import Tools from "./Tools"
-import me from './assests/me.jpg'
+import me from './assets/me.jpg'
 import { Link } from 'react-router-dom'
 
 export default function AboutMe() {
