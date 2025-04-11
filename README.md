@@ -27,16 +27,6 @@ This project includes:
     <li><h3>Showcase of CSS styling and React.js functionality</h3></li>
 </ul>
 
-## Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/p111111111uto/max-martinez.dev.git
-```
-2. Install using. `npm install`.
-3. Run using `npm run dev`.
-4. Open the localhost in your browser.
-
 ## Questions?
 
 Contact me at `p111111111uto` on [Github](https://github.com/p111111111uto)!
