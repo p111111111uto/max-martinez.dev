@@ -7,7 +7,7 @@ export default function AboutMe() {
             <h1 id="firstH">Get to know <span style={{color:'#FFD700'}}> me</span></h1>
             <div className="aboutBody">
                 <div className="extra">
-                    <img src={me} style={{ width: '150px', height: '150px', objectFit: 'cover' }} />
+                    <img src={me} style={{maxWidth: '1000px', maxHeight: '1000px', objectFit: 'cover' }} />
                 </div>
                 <div className="details">
                     <h3>
