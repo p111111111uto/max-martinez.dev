@@ -55,7 +55,7 @@ export default function Home() {
                                 <h3>
                                     My name is <span style={{color: '#FFD700'}}>Max</span> and I am a desktop support technician at the University of Miami.
                                     <br />
-                                    I have over two year&apos; of experience in the IT industry and am currently pursuing my bachelor&apos; in Cybersecurity and Information Assurance.
+                                    I have over two years of experience in the IT industry and am currently pursuing my bachelors degree in Cybersecurity and Information Assurance.
                                     <br />
                                 </h3>
                             </div>
