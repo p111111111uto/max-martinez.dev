@@ -5,7 +5,7 @@ export default function Type() {
         <Typewriter 
             options={{
                 strings: [
-                    'Aspiring security engineer',
+                    'Desktop Support Technician',
                     'Tech enthusiast',
                     'Ethical hacker',
                     'Python guru',
