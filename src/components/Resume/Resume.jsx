@@ -1,4 +1,4 @@
-import resume from './assets/resume.jpeg'
+import resume from './assets/resume.jpg'
 import resumepdf from './assets/resumepdf.pdf'
 import './assets/style.css'
 
