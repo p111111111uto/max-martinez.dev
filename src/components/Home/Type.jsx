@@ -7,7 +7,6 @@ export default function Type() {
                 strings: [
                     'Desktop Support Technician',
                     'Tech enthusiast',
-                    'Ethical hacker',
                     'Python guru',
                     'Lifelong learner',
                 ],

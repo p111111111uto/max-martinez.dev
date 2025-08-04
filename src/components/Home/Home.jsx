@@ -53,9 +53,9 @@ export default function Home() {
                         <div className="container">
                             <div className="bodyText">
                                 <h3>
-                                    My name is <span style={{color: '#FFD700'}}>Max</span> and I am a desktop support technician at the University of Miami.
+                                    My name is <span style={{color: '#FFD700'}}>Max</span> and I am a Desktop Support Technician at the University of Miami.
                                     <br />
-                                    I have over two years of experience in the IT industry and am currently pursuing my bachelors degree in Cybersecurity and Information Assurance.
+                                    I have over two years of experience in the IT industry and am currently pursuing my associates degree in Electrical Engineering at Miami Dade College.
                                     <br />
                                 </h3>
                             </div>
